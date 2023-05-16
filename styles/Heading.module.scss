@@ -1,0 +1,9 @@
+@import './variable.module';
+.heading-h1 {
+  font-size: $text-xxlg;
+  text-align: center;
+  font-weight: $font-xbold;
+  background: $bg-primary;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

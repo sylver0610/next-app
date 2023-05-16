@@ -1,0 +1,33 @@
+.square {
+  font-size: 2rem;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.correct {
+  animation: flip 1s linear;
+  background-color: #38ef7d;
+}
+
+.wrong {
+  animation: flip 1s linear;
+  background-color: #ccc;
+}
+
+.almost {
+  animation: flip 1s linear;
+  background-color: #fffb7d;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}

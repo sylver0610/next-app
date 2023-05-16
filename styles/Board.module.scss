@@ -1,0 +1,13 @@
+.board {
+  height: 300px;
+  width: 300px;
+
+  align-self: center;
+  justify-content: center;
+
+  display: grid;
+  grid-template-columns: repeat(5, 0fr);
+  column-gap: 0.25em;
+
+  margin-bottom: 2em;
+}
