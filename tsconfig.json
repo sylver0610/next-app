@@ -18,6 +18,13 @@
       "@component/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "Components/CKEditor/CKeditor.js",
+    "Components/CKEditor/CKeditor.js",
+    "pages/blog/index.js"
+  ],
   "exclude": ["node_modules"]
 }
