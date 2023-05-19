@@ -1,7 +1,7 @@
 import React from "react"
 import { getSession, signOut, useSession } from "next-auth/react"
 import { Button, Space } from "antd"
-import { sendMessage } from "@component/Libs/sendMessage"
+
 import { InferGetServerSidePropsType, NextPage } from "next"
 import Head from "next/head"
 // import { useMessages } from '@component/Libs/useMessage'
@@ -11,9 +11,6 @@ const account: NextPage = ({ session }: InferGetServerSidePropsType<typeof getSe
   const handleClick = async () => {
     console.log(`clicked`)
     // addMessage('')
-    await sendMessage([]).then((data) => {
-      console.log(data)
-    })
   }
   return (
     <>
