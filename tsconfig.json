@@ -15,7 +15,8 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@component/*": ["./*"]
+      "@component/*": ["./Components/*"],
+      "@styles/*": ["./styles/*"]
     }
   },
   "include": [
@@ -24,7 +25,8 @@
     "**/*.tsx",
     "Components/CKEditor/CKeditor.js",
     "Components/CKEditor/CKeditor.js",
-    "pages/blog/index.js"
+    "pages/blog/index.js",
+    "Components/Layout/Layout.ts"
   ],
   "exclude": ["node_modules"]
 }

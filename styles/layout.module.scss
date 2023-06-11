@@ -1,0 +1,35 @@
+.sidebar {
+  text-align: center;
+  line-height: 120px;
+  color: green;
+  background-color: white;
+}
+.logo {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  span {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+.userDetails {
+  .type-account {
+    font-size: 10px;
+    color: rgb(66, 66, 66);
+    background-color: rgba(9, 9, 9, 0.05);
+    display: inline-flex;
+    align-items: center;
+    // border: 1px solid black;
+    border-radius: 4px;
+  }
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  button {
+    box-shadow: 0 4px #6c4298;
+  }
+}
